@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #121214;
+}
+.logo {
+    text-align: center;
+    margin-top: 42px;
+}
+.container{
+    width: 720px;
+    margin: auto;
+}
+.watching {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 73px;
+    margin-bottom: 61px;
+}
+.profiles {
+    display: flex;
+    justify-content: space-evenly;
+}
+.profileImage{
+    width: 160px;
+    height: 160px;
+    background-size: 100%;
+    border: 1.5px solid none;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #1E1E20;
+    padding: 50px;
+}
+.image1{
+    background-image: url("../images/avatar1.png");
+    transition-duration: 0.5s;
+}
+.image2{
+    background-image: url("../images/avatar2.png");
+    transition-duration: 0.5s;
+}
+.image3{
+    background-image: url("../images/avatar3.png");
+    transition-duration: 0.5s;
+}
+.iconify {
+    background:none;
+    color:#6F6F70;
+    transition-duration: 0.5s;
+}
+.name{
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer {
+    margin-top: 102px;
+}
+.manageProfiles{
+    width: 206px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    margin: auto;
+}
+.profileBox:hover>.name{
+    color: #FFFFFF;
+}
+.profileImage:hover {
+    color: #ffffff;
+    border: 1.5px solid #FFFFFF;
+    background-size: 120%;
+    transition-duration: 0.5s;
+}
+.manageProfiles:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    transition-duration: 0.5s;
+}
