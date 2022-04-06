@@ -14,35 +14,55 @@
     <title>Kenzieflix</title>
 </head>
 
-<body>
-    <header class="logo">
-        <img src="./images/logo.svg" alt="Logo da Kenzieflix">
-    </header>
-    <main class="container">
-        <h1 class="watching">Quem está assistindo?</h1>
-        <div class="profiles">
-            <div class="profileBox">
-                <div class="profileImage image1"></div>
-                <p class="name">Matheus</p>
-            </div>
-            <div class="profileBox">
-                <div class="profileImage image2"></div>
-                <p class="name">Vitória</p>
-            </div>
-            <div class="profileBox">
-                <div class="profileImage image3"></div>
-                <p class="name">Geraldo</p>
-            </div>
-            <div class="profileBox">
-                <span class="profileImage iconify" data-icon="akar-icons:circle-plus" data-width="53.89" data-height="53.89"></span>
-                <p class="name">Adicionar perfil</p>
-            </div>
+<body class="pageContent">
+    <main>
+        <div class="container">
+            <ul class="contentFlex">
+                <li>
+                    <figure>
+                        <img class="logo" src="./images/logo.svg" alt="logo da kenzieflix">
+                        <figcaption hidden>Logo da kenzieflix</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <h1 class="watching">Quem está assistindo?</h1>
+                </li>
+                <li>
+                    <ul class="profilesFlex">
+                        <li class="profileContent">
+                            <figure class="imageBox">
+                                <img class="profileImage" src="./images/avatar1.png" alt="Icone do primeiro perfil">
+                                <figcaption hidden>Icone do primeiro perfil</figcaption>
+                            </figure>
+                            <p class="name">Matheus</p>
+                        </li>
+                        <li class="profileContent">
+                            <figure class="imageBox">
+                                <img class="profileImage" src="./images/avatar2.png" alt="Icone do segundo perfil">
+                                <figcaption hidden>Icone do segundo perfil</figcaption>
+                            </figure>
+                            <p class="name">Vitória</p>
+                        </li>
+                        <li class="profileContent">
+                            <figure class="imageBox">
+                                <img class="profileImage" src="./images/avatar3.png" alt="Icone do terceiro perfil">
+                                <figcaption hidden>Icone do terceiro perfil</figcaption>
+                            </figure>
+                            <p class="name">Geraldo</p>
+                        </li>
+                        <li class="profileContent">
+                            <section class="imageBox">
+                                <span class="iconify " data-icon="akar-icons:circle-plus" data-width="53.89" data-height="53.89"></span>
+                            </section>
+                            <p class="name">Adicionar perfil</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="manageProfiles">Gerenciar Perfis</button>
+                </li>
+            </ul>
         </div>
-    <footer class="footer">
-            <div>
-                <p class="manageProfiles">Gerenciar Perfis</p>
-            </div>
-    </footer>
     </main>
 </body>
 

@@ -3,88 +3,91 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+.pageContent {
     background-color: #121214;
 }
-.logo {
-    text-align: center;
-    margin-top: 42px;
-}
-.container{
-    width: 720px;
+.container {
+    width: 700px;
     margin: auto;
+}
+.contentFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 229px;
+    height: 68px;
+    margin-top: 42px;
 }
 .watching {
     color: #FFFFFF;
     font-size: 32px;
     font-weight: 600;
-    text-align: center;
     margin-top: 73px;
-    margin-bottom: 61px;
 }
-.profiles {
+.profilesFlex {
+    width: 718px;
+    height: 194px;
+    margin-top: 61px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-.profileImage{
+.imageBox {
     width: 160px;
     height: 160px;
-    background-size: 100%;
-    border: 1.5px solid none;
-    border-radius: 8px;
-    margin-bottom: 16px;
+    overflow: hidden;
     background-color: #1E1E20;
-    padding: 50px;
+    border-radius: 8px;
+    transition-duration: 0.3s;
 }
-.image1{
-    background-image: url("../images/avatar1.png");
-    transition-duration: 0.5s;
-}
-.image2{
-    background-image: url("../images/avatar2.png");
-    transition-duration: 0.5s;
-}
-.image3{
-    background-image: url("../images/avatar3.png");
-    transition-duration: 0.5s;
+.profileImage {
+    width: 100%;
+    transition-duration: 0.3s;
 }
 .iconify {
-    background:none;
-    color:#6F6F70;
-    transition-duration: 0.5s;
+    margin: 32%;
+    color: #6F6F70;
+    transition-duration: 0.3s;
 }
-.name{
+.name {
     color: #9C9C9C;
     font-size: 14px;
     font-weight: 600;
     text-align: center;
+    margin-top: 16px;
+    transition-duration: 0.3s;
 }
-.footer {
-    margin-top: 102px;
-}
-.manageProfiles{
+.manageProfiles {
     width: 206px;
     height: 50px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
-    text-align: center;
-    padding: 10px;
+    margin-top: 102px;
+    margin-bottom: 88px;
+    background: none;
     border: 1.5px solid #FFFFFF;
     border-radius: 8px;
-    margin: auto;
+    transition-duration: 0.3s;
 }
-.profileBox:hover>.name{
-    color: #FFFFFF;
-}
-.profileImage:hover {
+.profileContent:hover>.imageBox {
     color: #ffffff;
     border: 1.5px solid #FFFFFF;
-    background-size: 120%;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
+}
+.profileContent:hover>.imageBox>.profileImage {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+.profileContent:hover>.imageBox>.iconify,.profileContent:hover>.name {
+    color: #FFFFFF;
 }
 .manageProfiles:hover {
     color: #000000;
     background-color: #FFFFFF;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
