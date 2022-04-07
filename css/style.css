@@ -74,6 +74,13 @@
     border-radius: 8px;
     transition-duration: 0.3s;
 }
+.redes {
+    color: #9C9C9C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    transition-duration: 0.3s;
+}
 .profileContent:hover>.imageBox {
     color: #ffffff;
     border: 1.5px solid #FFFFFF;
@@ -89,5 +96,9 @@
 .manageProfiles:hover {
     color: #000000;
     background-color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+.redes:hover {
+    color: #ffffff;
     transition-duration: 0.3s;
 }
