@@ -105,21 +105,24 @@
 @media screen and (max-width: 519px) {
     .logo {
         width: 200px;
-        margin-top: 22px;
+        margin-top: 15px;
     }
     .watching {
         font-size: 25px;
-        margin-top: 43px;
+        margin-top: 20px;
     }
     .profilesFlex {
-        margin-top: 31px;
+        margin-top: 21px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
     }
+    .name {
+        margin-top: 5px;
+    }
     .manageProfiles {
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 68px;
     }
 }
