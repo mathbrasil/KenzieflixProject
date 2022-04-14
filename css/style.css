@@ -10,7 +10,7 @@
     background-color: #121214;
 }
 .container {
-    width: 700px;
+    max-width: 700px;
     margin: auto;
 }
 .contentFlex {
@@ -27,14 +27,16 @@
     color: #FFFFFF;
     font-size: 32px;
     font-weight: 600;
+    text-align: center;
     margin-top: 73px;
 }
 .profilesFlex {
-    width: 718px;
-    height: 194px;
+    max-width: 718px;
     margin-top: 61px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .imageBox {
     width: 160px;
