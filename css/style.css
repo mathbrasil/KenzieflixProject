@@ -20,7 +20,6 @@
 }
 .logo {
     width: 229px;
-    height: 68px;
     margin-top: 42px;
 }
 .watching {
@@ -40,7 +39,6 @@
 }
 .imageBox {
     width: 160px;
-    height: 160px;
     overflow: hidden;
     background-color: #1E1E20;
     border-radius: 8px;
@@ -80,7 +78,6 @@
     color: #9C9C9C;
     font-size: 16px;
     font-weight: 600;
-    margin-top: 16px;
     transition-duration: 0.3s;
 }
 .profileContent:hover>.imageBox {
@@ -103,4 +100,26 @@
 .redes:hover {
     color: #ffffff;
     transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 519px) {
+    .logo {
+        width: 200px;
+        margin-top: 22px;
+    }
+    .watching {
+        font-size: 25px;
+        margin-top: 43px;
+    }
+    .profilesFlex {
+        margin-top: 31px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .manageProfiles {
+        margin-top: 50px;
+        margin-bottom: 68px;
+    }
 }
